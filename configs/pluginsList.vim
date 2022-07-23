@@ -39,4 +39,9 @@ Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag'
 
+" easymotion
+Plug 'easymotion/vim-easymotion'
+
+
+
 call plug#end()
