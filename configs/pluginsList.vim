@@ -10,4 +10,13 @@ Plug 'maxmellon/vim-jsx-pretty'
 " emmet for html
 Plug 'mattn/emmet-vim'
 
+" LSP
+Plug 'neovim/nvim-lspconfig'
+
+" autocomplete
+Plug 'nvim-lua/completion-nvim'
+
+" COC
+Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
+
 call plug#end()
