@@ -22,4 +22,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lock
 " comment
 Plug 'tpope/vim-commentary'
 
+" identline
+Plug 'Yggdroot/indentline'
+
 call plug#end()
