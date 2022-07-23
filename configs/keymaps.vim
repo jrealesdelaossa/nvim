@@ -14,3 +14,6 @@ nmap <Leader>s <Plug>(easymotion-s2)
 
 " run js
 nnoremap <Leader>js :!node %<CR>
+
+map <Leader>l :bnext<CR>
+map <Leader>h :bprevious<CR>
