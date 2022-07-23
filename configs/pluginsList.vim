@@ -29,5 +29,7 @@ Plug 'Yggdroot/indentline'
 Plug 'vim-airline/vim-airline'
 Plug 'scrooloose/nerdtree'
 
+" icons
+Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
