@@ -32,4 +32,11 @@ Plug 'scrooloose/nerdtree'
 " icons
 Plug 'ryanoasis/vim-devicons'
 
+" Syntax
+Plug 'sheerun/vim-polyglot'
+
+" typing
+Plug 'jiangmiao/auto-pairs'
+Plug 'alvan/vim-closetag'
+
 call plug#end()
