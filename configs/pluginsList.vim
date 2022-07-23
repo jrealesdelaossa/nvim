@@ -19,4 +19,7 @@ Plug 'nvim-lua/completion-nvim'
 " COC
 Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 
+" comment
+Plug 'tpope/vim-commentary'
+
 call plug#end()
