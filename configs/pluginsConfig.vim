@@ -10,9 +10,8 @@ let g:user_emmet_settings={
 
 " Lsp
 lua << EOF
-require'lspconfig'.tsserver.setup{on_attach=require'completion'.on_attach}
 EOF
-
+"require'lspconfig'.tsserver.setup{on_attach=require'completion'.on_attach}
 
 " ---------------------------------------------------------------- "
 "  COC configuration
@@ -215,4 +214,10 @@ autocmd VimEnter * call AirlineInit()
 "  ---------------------------------------------------------- "
 
 
+" kite
+let g:kite_supported_languages = ['javascript', 'python']
 
+" coc
+autocmd FileType python let b:coc_suggest_disable = 1
+autocmd FileType javascript let b:coc_suggest_disable = 1
+autocmd FileType scss setl iskeyword+=@-@
