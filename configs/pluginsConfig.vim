@@ -192,6 +192,7 @@ nnoremap <C-D> :Prettier<CR>
 
 " airline
 let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme='luna'
 
 " Nerdtree
 nnoremap <silent> <F5> :NERDTreeFind<CR>

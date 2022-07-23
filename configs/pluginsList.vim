@@ -27,6 +27,7 @@ Plug 'Yggdroot/indentline'
 
 " nerdtree and airline
 Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'scrooloose/nerdtree'
 
 " icons

@@ -13,3 +13,6 @@ runtime configs/pluginsList.vim
 runtime configs/theme.vim
 
 runtime configs/pluginsConfig.vim
+
+" Keymaps
+runtime configs/keymaps.vim
