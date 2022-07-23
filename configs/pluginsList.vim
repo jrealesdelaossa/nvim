@@ -25,4 +25,9 @@ Plug 'tpope/vim-commentary'
 " identline
 Plug 'Yggdroot/indentline'
 
+" nerdtree and airline
+Plug 'vim-airline/vim-airline'
+Plug 'scrooloose/nerdtree'
+
+
 call plug#end()

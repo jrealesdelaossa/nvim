@@ -191,3 +191,13 @@ nnoremap <C-D> :Prettier<CR>
 " Commentary configuration
 nnoremap <space>/ :Commentary<CR>
 vnoremap <space>/ :Commentary<CR>
+
+" airline
+let g:airline#extensions#tabline#enabled = 1
+
+" Nerdtree
+nnoremap <silent> <F5> :NERDTreeFind<CR>
+nnoremap <silent> <F6> :NERDTreeToggle<CR>
+let NERDTreeQuitOnOpen=1
+
+
