@@ -7,5 +7,7 @@ Plug 'sainnhe/gruvbox-material'
 Plug 'pangloss/vim-javascript'
 Plug 'maxmellon/vim-jsx-pretty'
 
+" emmet for html
+Plug 'mattn/emmet-vim'
 
 call plug#end()
