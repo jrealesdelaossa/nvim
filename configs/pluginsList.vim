@@ -20,7 +20,7 @@ Plug 'nvim-lua/completion-nvim'
 Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 
 " comment
-Plug 'tpope/vim-commentary'
+Plug 'scrooloose/nerdcommenter'
 
 " identline
 Plug 'Yggdroot/indentline'
@@ -41,6 +41,11 @@ Plug 'alvan/vim-closetag'
 
 " easymotion
 Plug 'easymotion/vim-easymotion'
+
+" identify if a line was added or deleted
+Plug 'mhinz/vim-signify'
+
+
 
 
 
