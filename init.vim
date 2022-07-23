@@ -11,3 +11,5 @@ runtime configs/pluginsList.vim
 
 " Select theme
 runtime configs/theme.vim
+
+runtime configs/pluginsConfig.vim
