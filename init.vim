@@ -5,3 +5,9 @@
 "
 " Native configurations, declared by the set keyword.
 runtime configs/nativeSettings.vim
+
+" Plugins list
+runtime configs/pluginsList.vim
+
+" Select theme
+runtime configs/theme.vim
